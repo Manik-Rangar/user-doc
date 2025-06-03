@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES2023",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    // /Users/manik/Desktop/JKT_docs/jkt-docs/src/shared/dto/users.dto.ts
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@jkt/config": ["src/shared/config"],
+      "@jkt/constants": ["src/shared/constants"],
+      "@jkt/dto": ["src/shared/dto"],
+      "@jkt/enums": ["src/shared/enums"],
+      "@jkt/types": ["src/shared/types"],
+      "@jkt/guards": ["src/shared/guards"],
+      "@jkt/models": ["src/shared/database/models"],
+      "@jkt/nest-utils":  ["src/shared/nest"],
+      "@jkt/jwt":  ["src/shared/jwt"],
+      "@jkt/services":  ["src/shared/services"]
+
+
+
+      // "@jkt/pipe": ["libs/pipe/src"],
+      // "@jkt/styles": ["libs/styles/src"],
+      // "@jkt/types": ["libs/types/src"],
+      // "@jkt/utils": ["libs/utils/src/common"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"],
+  "parserOptions": {
+  "project": ["tsconfig.json"]
+}
+}
