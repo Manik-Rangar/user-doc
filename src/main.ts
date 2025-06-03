@@ -31,7 +31,7 @@ async function bootstrap() {
     .build();
 
   const document = SwaggerModule.createDocument(app, config);
-  SwaggerModule.setup('api', app, document);
+  SwaggerModule.setup('', app, document);
 
   const host = process.env.ADMIN_API_HOST || '0.0.0.0';
   const port = process.env.ADMIN_API_PORT || 3001;

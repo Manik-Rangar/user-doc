@@ -14,8 +14,8 @@ A scalable backend system built using **NestJS** that supports:
 ### 1. **Clone the Repository**
 
 ```bash
-git clone <your-repo-url>
-cd <project-folder>
+git clone https://github.com/Manik-Rangar/user-doc.git
+cd JKT-DOCS
 ```
 
 ### 2. **Install Dependencies**
@@ -111,10 +111,9 @@ src/
 ├── role/               # Role controller & service
 ├── documents/          # Document management
 ├── shared/
-│   ├── models/         # Sequelize models
 │   ├── dtos/           # Data Transfer Objects
 │   ├── guards/         # Role/Permission guards
-│   └── database/       # DB configuration and providers
+│   └── database/       # DB configuration and models
 ```
 
 ---
