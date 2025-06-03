@@ -15,7 +15,7 @@ A scalable backend system built using **NestJS** that supports:
 
 ```bash
 git clone https://github.com/Manik-Rangar/user-doc.git
-cd JKT-DOCS
+cd  user-doc
 ```
 
 ### 2. **Install Dependencies**
