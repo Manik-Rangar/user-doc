@@ -2,7 +2,7 @@ import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 import { APPLICATION_DESCRIPTION, APPLICATION_NAME } from '@jkt/constants';
-import { ValidationPipe } from '@nestjs/common';
+import { Logger, ValidationPipe } from '@nestjs/common';
 import { NestExpressApplication } from '@nestjs/platform-express';
 
 async function bootstrap() {
@@ -48,5 +48,6 @@ async function bootstrap() {
   );
 
   await app.listen(port, host);
+  Logger.log(`🚀 Application is running on: http://localhost:${port}`);
 }
 bootstrap();
