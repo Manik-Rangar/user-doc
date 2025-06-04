@@ -1,4 +1,4 @@
-{
+ {
   "compilerOptions": {
     "module": "commonjs",
     "target": "ES2023",
@@ -29,13 +29,6 @@
       "@jkt/nest-utils":  ["src/shared/nest"],
       "@jkt/jwt":  ["src/shared/jwt"],
       "@jkt/services":  ["src/shared/services"]
-
-
-
-      // "@jkt/pipe": ["libs/pipe/src"],
-      // "@jkt/styles": ["libs/styles/src"],
-      // "@jkt/types": ["libs/types/src"],
-      // "@jkt/utils": ["libs/utils/src/common"]
     }
   },
   "exclude": ["node_modules", "tmp"],

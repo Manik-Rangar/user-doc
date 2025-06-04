@@ -102,6 +102,23 @@ npm run start:dev
 
 ---
 
+## 🧪 Testing
+
+Run the test suite using:
+
+```bash
+npm test -- --config=jest.config.ts
+```
+
+The test suite includes:
+
+- Unit tests for all services
+- Authentication flow tests
+- Role-based access control tests
+- Document management tests
+
+---
+
 ## 🏗️ Project Structure
 
 ```
